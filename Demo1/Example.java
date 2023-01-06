@@ -5,5 +5,6 @@ public class Example{
     }
     public void myMethod () {
         system.out.println("Punsan Somkla")
+        system.out.println("65/45")
     }
 }
