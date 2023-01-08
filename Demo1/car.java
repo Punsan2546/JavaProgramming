@@ -1,4 +1,4 @@
-public class car{
+public class Car {
     /* Attributes */
     public int size;
     public String color;
@@ -13,39 +13,41 @@ public class car{
 
         Car redCar = new Car();
         redCar.color = "red";
-        redCar.model = "Benz";
         redCar.size = 4;
+        redCar.model = "Toyota";
 
         Car blueCar = new Car();
         blueCar.color = "blue";
-        blueCar.model = "Benz";
-        blueCar.size = 4;
+        blueCar.size = 7;
+        blueCar.model = "Nissan";
         
         System.out.println("Car color: " + redCar.color);
-        System.out.println("Car size: " + redCar.saize);
+        System.out.println("Car size: " + redCar.size);
         System.out.println("Car model: " + redCar.model);
-        redCar.moveForward();
+        redCar.turnOnlight();
+
         System.out.println("Car color: " + blueCar.color);
-        System.out.println("Car size: " + blueCar.saize);
+        System.out.println("Car size: " + blueCar.size);
         System.out.println("Car model: " + blueCar.model);
         blueCar.moveForward();
-
+        }
     /* Methods */ 
     public void moveForward(){
-     System.out.println(this.color + "Move forward");
+     System.out.println(this.color + " " + "Move forward");
 }
 
-public void moveForward(){
-     System.out.println(this.color + "Move backward");
+public void moveBackForward(){
+     System.out.println(this.color + " " + "Move backward");
 }
 
-public void moveForward(){
-     System.out.println(this.color + "stop");
+public void stop(){
+     System.out.println(this.color + " " + "stop");
 }
 
-public void moveForward(){
-     System.out.println(this.color + "trunOnlight");
+public void turnOnlight(){
+     System.out.println(this.color + " " + "trunOnlight");
 }
-public void moveForward(){
-     System.out.println(this.color + "trunOfflight");
+public void turnOfflight(){
+     System.out.println(this.color + " " + "trunOfflight");
+}
 }
