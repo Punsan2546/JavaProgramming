@@ -1,10 +1,10 @@
 public class Example{
-    public static void main (string[] args){
-        system.out.println("Hello world");
+    public static void main (String[] args){
+        System.out.println("Hello world");
         myMethod();
     }
     public void myMethod () {
-        system.out.println("Punsan Somkla")
-        system.out.println("65/45")
+        System.out.println("Punsan Somkla");
+        System.out.println("65/45");
     }
 }

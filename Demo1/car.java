@@ -1,5 +1,7 @@
+
 public class Car {
-    /* Attributes */
+
+/* Attributes */
     public int size;
     public String color;
     public String model;
