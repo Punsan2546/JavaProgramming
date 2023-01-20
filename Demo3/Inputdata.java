@@ -8,16 +8,16 @@ public class Inputdata {
         System.out.print("Your Surname: ");
         String surname = input.nextLine();
 
-        System.out.print("Your nickbame");
-        String nickname = input.nextline();
+        System.out.print("Your nickname: ");
+        String nickname = input.nextLine();
 
-        System.out.print("Your Major");
-        String major = input.nextline();
+        System.out.print("Your Major: ");
+        String major = input.nextLine();
 
-        System.out.print("Your ID");
+        System.out.print("Your ID: ");
         int id = input.nextInt();
-
         input.close();
+
         System.out.print("---------------------------------------");
         System.out.println("Your Name is " +name);
         System.out.println("Your are "+ surname);
