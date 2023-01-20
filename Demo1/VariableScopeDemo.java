@@ -1,4 +1,4 @@
-import java.rmi.ConnectIOException;
+
 
 public class VariableScopeDemo {
     public int i; //object variable
@@ -11,7 +11,7 @@ public class VariableScopeDemo {
     }
 
     public void method2(){
-        int j = 0; //local variable
+        int i = 0; //local variable
         System.out.println(i);
         //calling an object variable
         //System.out.printlt
