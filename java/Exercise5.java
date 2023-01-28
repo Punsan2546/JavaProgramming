@@ -1,7 +1,7 @@
-import java.utill.Scanner;
+import java.util.Scanner;
 
 public class Exercise5{
-    public main void main (String[] args) {
+    public static void main (String[] args) {
         Scanner scan = new Scanner (System.in);
         System.out.println("ENter your weight (KG) ");
         double weight = scan.nextDouble();
@@ -16,7 +16,12 @@ public class Exercise5{
         else if (bmi>=25)
         status = "Fat";
         else if (bmi>=23)
-        status = "";
-        else if (bmi)
+        status = "Overweight";
+        else if (bmi >=18)
+        status = "normal";
+
+        else
+            status = "Underweight.";
+            System.out.println("You are :" +status);
     }
 }
