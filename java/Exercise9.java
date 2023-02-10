@@ -6,7 +6,7 @@ public class Exercise9 {
         System.out.println(" push your money .... Bath : ");
         Float bath = point.nextFloat();
 
-        double chang = (bath*35.50);
+        double chang = (bath/35.50);
             System.out.println("Value: "+bath);
             System.out.println(" Bath To Chang dolar: "+chang);
 
